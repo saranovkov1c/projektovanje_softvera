@@ -1,0 +1,40 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
+ */
+package komunikacija;
+
+import java.io.Serializable;
+
+/**
+ *
+ * @author SARA
+ */
+public enum Operacija implements Serializable {
+    PRIJAVI_OPERATER,
+    VRATI_LISTU_SVI_OPERATER,
+    UBACI_KLIJENT,
+    PROMENI_KLIJENT,
+    OBRISI_KLIJENT,
+    PRETRAZI_KLIJENT,
+    VRATI_LISTU_KLIJENT,
+    VRATI_LISTU_SVI_KLIJENT,
+    UBACI_CLANSKAKARTICA,
+    PROMENI_CLANSKAKARTICA,
+    VRATI_LISTU_SVI_CLANSKAKARTICA,
+    UBACI_TERMINSMENE,
+    PROMENI_TERMINSMENE,
+    VRATI_LISTU_SVI_TERMINSMENE,
+    UBACI_OPERATERTERMINSMENE,
+    PROMENI_OPERATERTERMINSMENE,
+    VRATI_LISTU_OPERATERTERMINSMENE,
+    UBACI_KONZOLA,
+    PROMENI_KONZOLA,
+    VRATI_LISTU_SVI_KONZOLA,
+    UBACI_IZNAJMLJIVANJE,
+    PROMENI_IZNAJMLJIVANJE,
+    PRETRAZI_IZNAJMLJIVANJE,
+    VRATI_LISTU_IZNAJMLJIVANJE,
+    VRATI_LISTU_STAVKA_ZA_KONZOLU
+
+}
